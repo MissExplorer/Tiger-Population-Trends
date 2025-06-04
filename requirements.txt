@@ -1,5 +1,5 @@
 streamlit
-tensorflow>=2.12,<2.20
+tensorflow==2.12.0
 numpy
 pandas
 joblib
