@@ -5,7 +5,9 @@ import joblib
 
 # Load model and scaler
 
-model = load_model("tiger_lstm_model.h5", compile=False)
+
+model = load_model("tiger_lstm_model.keras", compile=False)
+
 
 scaler = joblib.load("scaler.save")
 
