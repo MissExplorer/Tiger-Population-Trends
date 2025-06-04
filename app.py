@@ -4,7 +4,9 @@ from tensorflow.keras.models import load_model
 import joblib
 
 # Load model and scaler
-model = load_model("tiger_lstm_model.h5")
+
+model = load_model("tiger_lstm_model.h5", compile=False)
+
 scaler = joblib.load("scaler.save")
 
 st.title("🐅 Tiger Population Predictor (Bandipur)")
